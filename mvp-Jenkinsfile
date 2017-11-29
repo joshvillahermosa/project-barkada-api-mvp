@@ -11,6 +11,6 @@ node {
     }
 
     stage('Deploy') {
-        sh 'barkda-api-mvp'
+        sh 'eb deploy barkda-api-mvp'
     }
 }
