@@ -43,11 +43,11 @@ This project is a fork of a current project I am working on. This fork is to dem
 * [X] - Update README
 * [X] - Add [Hapi Resource Validator (HRV) Documentation](/services/hapi-resource-creator.service)
 * [X] - Add Example of model for HRV.
-* [] - Fork
-* [] - Deploy MVP to AWS 
+* [X] - Fork
+* [X] - Deploy MVP to AWS 
 
 ### Nice to haves
-* [] - Add Husky for CI
-* [] - Refactor Hapi Resource Creator to auto include `id`
+* [ ] - Add Husky for CI
+* [ ] - Refactor Hapi Resource Creator to auto include `id`
 * [X] - Remove files prefixed with `_`
-* [] - Convert HRV from Class based to Functional Based
+* [ ] - Convert HRV from Class based to Functional Based
