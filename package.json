@@ -1,0 +1,36 @@
+{
+  "name": "project-barkada-api",
+  "version": "1.0.0",
+  "description": "Project Barkdada REST API",
+  "main": "app.js",
+  "scripts": {
+    "commit": "git cz",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jasmine"
+  },
+  "author": "Joshua John Villahermosa <joshvillahermosa@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.5.0",
+    "hapi-swaggered": "^2.10.0",
+    "hapi-swaggered-ui": "^2.6.0",
+    "inert": "^4.2.1",
+    "lodash": "^4.17.4",
+    "node-json-db": "^0.7.3",
+    "nodemon": "^1.12.1",
+    "uniqid": "^4.1.1",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "jasmine": "^2.8.0",
+    "joi": "^11.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

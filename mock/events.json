@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "name": "Test Event #1",
+            "owner": "XXXX",
+            "description": "Sample Event",
+            "invitees": [
+                "AAAA",
+                "BBBB"
+            ],
+            "status": "draft",
+            "id": "yfin2tj7wh7dsb"
+        },
+        {
+            "name": "Test Event #2",
+            "owner": "XXXX",
+            "description": "Sample Event",
+            "invitees": [
+                "AAAA",
+                "BBBB"
+            ],
+            "status": "draft",
+            "id": "yfinidj7wh7wq9"
+        },
+        {
+            "name": "Event #3",
+            "owner": "XXXX",
+            "description": "Sample Event",
+            "invitees": [
+                "CCCC",
+                "DDDD",
+                "EEEE"
+            ],
+            "status": "published",
+            "id": "yfinxij7wh9q7a"
+        },
+        {
+            "name": "Sample Event",
+            "ownerId": "XXXXX",
+            "description": "Test to make sure that Event can still be created",
+            "time": "123456",
+            "location": "New York",
+            "inviteeIds": [
+                "AAAA",
+                "BBBB"
+            ],
+            "planningElementIds": [
+                "ZZZ"
+            ],
+            "status": "draft",
+            "id": "4x46jdx4j9yyosay"
+        }
+    ]
+}
